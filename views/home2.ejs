@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login</title>
+    
+    <link rel="stylesheet" href="../css/home.css">
+  </head>
+  <body>
+    
+    <div class="x0"><%= user %></div>
+
+    <style>
+     .x0{
+      margin-left: 90px;
+    
+     }
+     </style>
+    <header>
+    <div class="x1"></div>
+      <ul>
+        <li> <a href="http://">home</a></li>
+        <li> <a href="http://">home</a></li>
+        <li> <a href="/login">login</a></li>
+        <li> <a href="/sign-up">sign-up</a></li>
+            
+       
+      </ul>
+ 
+
+    </header>
+
+   <div class="main">
+
+   </div>
+
+<div class="box0">
+  <div class="box1">
+    <div class="top">
+      <img src="" alt="">
+    </div>
+    <div class="buttom">
+      <div class="xx0"><%= user %></div>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="top"></div>
+    <div class="buttom"></div>
+  </div>
+  <div class="box1">
+    <div class="top"></div>
+    <div class="buttom"></div>
+  </div>
+</div>
+
+<footer>
+  <p>express.js</p>
+</footer>
+
+
+
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 150vh;
+  }
+  header{
+    display: flex;
+   justify-content: space-between;
+    height: 7em;
+   
+  }
+  ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+     margin-right: 2em;
+  }
+  ul li{
+    margin-left: 1em;
+    list-style: none;
+  }
+  li >a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    font-size: 20px;
+  }
+  li a:hover{
+    color: red;
+    background-color: blue;
+    border-radius: 3em;
+  }
+ 
+   .x1{
+    background-color: red;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    margin: 2%;
+   }
+   
+  .main{
+    background-color: aqua;
+    height: 20em;
+  }
+  .box0{
+    margin-top: 5em;
+   
+    height: 20em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ 
+  }
+  .box1{
+    background-color: red;
+    height: 20em;
+    width: 20em;
+    transition: 0.4s;
+  }
+  .box1:hover{
+    transform: scale(1.1);
+  }
+  .box2{
+    background-color: green;
+    height: 20em;
+    width: 20em;
+    transition: 0.4s;
+  }
+  .box2:hover{
+    transform: scale(1.1);
+  }
+
+  .top{
+    background-color: yellow;
+    height: 10em;
+    width: 20em;
+  }
+  img{
+    width: 20em;
+    height: 10em;
+  }
+
+  footer{
+    background-color: black;
+    height: 7em;
+  }
+  footer p{
+    color: white;
+    text-align: center;
+    line-height: 5em;
+    font-size: 20px;
+  }
+  .xx0{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+</style>
+
+   
+
+  </body>
+</html>
